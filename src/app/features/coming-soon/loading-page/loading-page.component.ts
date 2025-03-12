@@ -1,12 +1,10 @@
 import { AfterViewInit, Component, Inject, OnInit, PLATFORM_ID } from '@angular/core';
-import { EyeBallPageComponent } from '../eye-ball-page/eye-ball-page.component';
 import { fadeInOutAnimation } from '../../../shared/animations/animation';
 import { isPlatformBrowser } from '@angular/common';
 
 @Component({
   selector: 'app-loading-page',
   standalone: true,
-  imports: [EyeBallPageComponent],
   templateUrl: './loading-page.component.html',
   styleUrl: './loading-page.component.scss',
   animations: [fadeInOutAnimation],
