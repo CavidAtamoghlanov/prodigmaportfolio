@@ -1,0 +1,322 @@
+.loading-page {
+    width: 100vw;
+    height: 100vh;
+    background-color: black;
+    position: relative;
+    overflow: hidden;
+    text-align: left;
+    font-size: 24px;
+    color: #f1f0eb;
+    font-family: 'Panton-Light';
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 100% !important;
+    height: 100% !important;
+    object-fit: cover;
+    opacity: 60%;
+}
+
+.eye-ball {
+    @extend .overlay;
+    z-index: 1;
+}
+
+.light-overlay {
+    @extend .overlay;
+    z-index: 2;
+}
+
+.dust-grain {
+    @extend .overlay;
+    z-index: 3;
+}
+
+
+.coming-soon{
+    position: absolute;
+    top: 214px;
+    left: 70px;
+    z-index: 4;
+    font-family: 'Gennaro';
+    text-align: end;
+
+    .coming {
+        color: #D33D25;
+        font-size: 30rem;
+        line-height: 15rem;
+    }
+
+    .soon {
+        font-size: 15rem;
+        line-height: 8rem;
+    }
+
+}
+
+.p-btn{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    z-index: 4;
+    font-family: 'Gennaro';
+    text-align: end;
+}
+
+.where{
+    position: absolute;
+    top: 334px;
+    left: 158px;
+    font-size: 1.4rem;
+    z-index: 5;
+    padding: 0 1.5rem;
+    font-family: 'Panton-Regular';
+    background-color: white;
+    color: black;
+}
+
+.tape{
+    position: absolute;
+    top: 214px;
+    left: -57.75px;
+    width: 571.35px;
+    z-index: 5;
+
+    img {
+        width: 100%;
+    }
+}
+
+.file-icon{
+    position: absolute;
+    top: 5.86vh !important;
+    right: 8.26vw !important;
+    width: 30.97vw !important;
+    height: 61.52vh !important;
+    z-index: 6;
+}
+
+.skotch{
+    position: absolute;
+    top: 0px;
+    right: 4.72vw;
+    z-index: 6;
+}
+
+.video5-container{
+    position: absolute;
+    top: 33vh;
+    right: 8.68vw;
+    z-index: 5;
+    transition: top 0.5s ease-in-out, right 0.5s ease-in-out;
+
+    .video-5{
+        position: absolute;
+        top: 1.5rem;
+        right: 3.2rem;
+        width: 8.3rem;
+        height: 12.4rem;
+        z-index: 5;
+        rotate: 9deg;
+        object-fit: cover;
+    }
+
+    .plyonka-5{
+        position: absolute;
+        top: 0;
+        right: 0;
+        z-index: 5;
+    }
+}
+
+.video4-container{
+    position: absolute;
+    top: 23.63vh;
+    right: 14.37vw;
+    z-index: 5;
+    transition: top 0.5s ease-in-out, right 0.5s ease-in-out;
+
+    .video-4{
+        position: absolute;
+        top: 1.5rem;
+        right: 3.2rem;
+        width: 8.3rem;
+        height: 12.4rem;
+        z-index: 5;
+        rotate: -9deg;
+        object-fit: cover;
+    }
+
+    .plyonka-4{
+        position: absolute;
+        top: 0;
+        right: 0;
+        z-index: 5;
+    }
+}
+
+.video3-container{
+    position: absolute;
+    top: 13.77vh;
+    right: 8.54vw;
+    z-index: 5;
+    transition: top 0.5s ease-in-out, right 0.5s ease-in-out;
+
+    .video-3{
+        position: absolute;
+        top: 1.5rem;
+        right: 3.2rem;
+        width: 8.3rem;
+        height: 12.4rem;
+        z-index: 5;
+        rotate: 9deg;
+        object-fit: cover;
+    }
+
+    .plyonka-3{
+        position: absolute;
+        top: 0;
+        right: 0;
+        z-index: 5;
+    }
+}
+
+.video2-container{
+    position: absolute;
+    top: 15.72vh;
+    right: 14.30vw;
+    z-index: 5;
+    transition: top 0.5s ease-in-out, right 0.5s ease-in-out;
+
+    .video-2{
+        position: absolute;
+        top: 1.5rem;
+        right: 3.2rem;
+        width: 8.3rem;
+        height: 12.4rem;
+        z-index: 5;
+        rotate: 9deg;
+        object-fit: cover;
+    }
+
+    .plyonka-2{
+        position: absolute;
+        top: 0;
+        right: 0;
+        z-index: 5;
+    }
+}
+
+.video1-container{
+    position: absolute;
+    top: 9.96vh;
+    right: 19.37vw;
+    z-index: 5;
+    transition: top 0.5s ease-in-out, right 0.5s ease-in-out;
+
+    .video-1{
+        position: absolute;
+        top: 1.5rem;
+        right: 3.2rem;
+        width: 8.3rem;
+        height: 12.4rem;
+        z-index: 5;
+        rotate: -9deg;
+        object-fit: cover;
+    }
+
+    .plyonka-1{
+        position: absolute;
+        top: 0;
+        right: 0;
+        z-index: 5;
+    }
+}
+
+.duct-tape-container{
+    position: absolute;
+    top: 52.54vh;
+    right: 8.26vw;
+    z-index: 5;
+}
+
+.logo-pin-container{
+    position: absolute;
+    top: 53.51vh;
+    right: 17.99vw;
+    z-index: 5;
+}
+
+.prodigma-org-container{
+    position: absolute;
+    top: 61.03vh;
+    right: 25.55vw;
+    z-index: 5;
+    transition: top 0.5s ease-in-out, right 0.5s ease-in-out;
+}
+
+.prodigma-pin-container{
+    position: absolute;
+    top: 49.90vh;
+    right: 25.97vw;
+    z-index: 5;
+}
+
+.video-pin-container{
+    position: absolute;
+    top: 50.68vh;
+    right: 19.16vw;
+    z-index: 5;
+}
+
+.photo-pin-container{
+    position: absolute;
+    top: 49.70vh;
+    right: 13.40vw;
+    z-index: 5;
+}
+
+.design-pin-container{
+    position: absolute;
+    top: 49.90vh;
+    right: 7.5vw;
+    z-index: 5;
+}
+
+.dev-pin-container{
+    position: absolute;
+    top: 55.27vh;
+    right: 11.31vw;
+    z-index: 5;
+}
+
+.links{
+    position: absolute;
+    bottom: 2rem;
+    left: 0;
+    width: 100%;
+    height: 65px;
+    z-index: 4;
+    display: flex;
+    justify-content: space-around;
+    font-family: 'Panton-Regular';
+}
+
+.links > div {
+    width: 20%;
+    display: flex;
+    justify-content: center;
+}
+
+.links > div > div{
+    width: 80%;
+} 
+
+.midline{
+    display: inline-block;
+    width: 24px;
+    margin: 8px;
+}
